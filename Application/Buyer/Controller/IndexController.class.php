@@ -20,7 +20,7 @@ class IndexController extends Controller {
 	 * 列表页
 	 *
 	 */
-    public function list(){
+    public function goodsList(){
     	$this->display('goods_list');
     }
     /**

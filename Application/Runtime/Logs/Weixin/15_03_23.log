@@ -1,0 +1,39 @@
+[ 2015-03-23T13:28:17+08:00 ] 127.0.0.1 /ecs_weixiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+NOTIC: [8] Undefined index: signature D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: timestamp D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: nonce D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 12 行.
+
+[ 2015-03-23T13:36:40+08:00 ] 127.0.0.1 /ecs_weixiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+NOTIC: [8] Undefined index: signature D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: timestamp D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: nonce D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-03-23T13:37:38+08:00 ] 127.0.0.1 /ecs_weixiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: signature D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: timestamp D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: nonce D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+

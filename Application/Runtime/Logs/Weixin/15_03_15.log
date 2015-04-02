@@ -1,0 +1,289 @@
+[ 2015-03-15T16:36:36+08:00 ] 127.0.0.1 /ecs_weixiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+NOTIC: [8] Undefined index: signature D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: timestamp D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: nonce D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002898s ]
+
+[ 2015-03-15T16:50:31+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+NOTIC: [8] Undefined index: signature D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: timestamp D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined index: nonce D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2015-03-15T17:03:00+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:04:30+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] file_put_contents(/ecs_weixiao./access_token.json) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 45 行.
+
+[ 2015-03-15T17:05:45+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] file_put_contents(/ecs_weixiao./access_token.json) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 45 行.
+
+[ 2015-03-15T17:05:59+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] file_put_contents(/ecs_weixiao./access_token.json) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 45 行.
+
+[ 2015-03-15T17:06:25+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] file_put_contents(/ecs_weixiao./access_token.json) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 45 行.
+
+[ 2015-03-15T17:06:55+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] file_put_contents(/ecs_weixiao/access_token.json) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 45 行.
+
+[ 2015-03-15T17:06:59+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] file_put_contents(/ecs_weixiao/access_token.json) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 45 行.
+
+[ 2015-03-15T17:07:39+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] file_put_contents(/ecs_weixiao/access_token.json) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 45 行.
+
+[ 2015-03-15T17:08:08+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:14+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:15+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:16+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:16+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:16+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:16+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao./access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:28+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003518s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao/access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:29+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao/access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:29+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+NOTIC: [2] file_get_contents(/ecs_weixiao/access_token.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 31 行.
+
+[ 2015-03-15T17:08:42+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+
+[ 2015-03-15T17:13:06+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003148s ]
+
+[ 2015-03-15T17:13:26+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+
+[ 2015-03-15T17:13:26+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+
+[ 2015-03-15T17:20:18+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+
+[ 2015-03-15T17:20:43+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+NOTIC: [8] Undefined variable: accessToken D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 129 行.
+ERR: Think\Controller:https_request方法不存在！
+
+[ 2015-03-15T17:22:06+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+NOTIC: [8] Undefined variable: accessToken D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao\Application\Weixin\Controller\IndexController.class.php 第 129 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002403s ]
+
+[ 2015-03-15T17:22:34+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2015-03-15T17:23:23+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+
+[ 2015-03-15T17:52:11+08:00 ] 127.0.0.1 /ecs_weixiao/index.php?m=weixin&c=index&a=setMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+

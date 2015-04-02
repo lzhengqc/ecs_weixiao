@@ -1,0 +1,24 @@
+[ 2015-03-15T16:42:10+08:00 ] 127.0.0.1 /ecs_weixiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+
+[ 2015-03-15T16:42:28+08:00 ] 127.0.0.1 /ecs_weixiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+
+[ 2015-03-15T16:42:28+08:00 ] 127.0.0.1 /ecs_weixiao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+

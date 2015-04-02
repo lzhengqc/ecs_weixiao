@@ -5,10 +5,10 @@
 	<title>商品分类</title>
 	<meta http-equiv="pragma" content="no-cache">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-	<link rel="stylesheet" href="/ec_weixiao/Public/css/jquery.mobile-1.4.2.min.css" />
-	<link rel="stylesheet" href="/ec_weixiao/Public/css/common.css" />
-	<script src="/ec_weixiao/Public/js/jquery-1.11.1.min.js"></script>
-	<script src="/ec_weixiao/Public/js/jquery.mobile-1.4.2.min.js"></script>
+	<link rel="stylesheet" href="/ecs_weixiao/Public/css/jquery.mobile-1.4.2.min.css" />
+	<link rel="stylesheet" href="/ecs_weixiao/Public/css/common.css" />
+	<script src="/ecs_weixiao/Public/js/jquery-1.11.1.min.js"></script>
+	<script src="/ecs_weixiao/Public/js/jquery.mobile-1.4.2.min.js"></script>
 	<style type="text/css">
 	.my-nav .my-current{background:#ff4400;}
 	</style>
@@ -68,7 +68,7 @@ shareTitle[4] = '当我在向你招手，招呼你“戳”进来，而你却视
 <body>
 	<div data-role="content">
 		<div class="my-header-bg">
-			<img src="/ec_weixiao/Public/images/header_bg.gif" class="my-header-img">
+			<img src="/ecs_weixiao/Public/images/header_bg.gif" class="my-header-img">
 			<div class="my-ui-grid">
 				<div class="ui-grid-b">
 			    	<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:150px"></div></div>
@@ -94,25 +94,25 @@ shareTitle[4] = '当我在向你招手，招呼你“戳”进来，而你却视
 				<div class="ui-grid-c">
 			    	<div class="ui-block-a" jump-url="http://localhost/pz/wx/index.php/merchant/merchant/local_category" onclick="nav_jump(this)">
 			    		<div class="ui-bar ui-bar-a" style="font-weight:400;color:#ff5616;">
-			    			<img src="/ec_weixiao/Public/images/consumers/add.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
+			    			<img src="/ecs_weixiao/Public/images/consumers/add.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
 			    			添加分类
 			    		</div>
 			    	</div>
 			    	<div class="ui-block-b" jump-url="http://localhost/pz/wx/index.php/merchant/merchant/panic_buy" onclick="nav_jump(this)">
 			    		<div class="ui-bar ui-bar-a" style="font-weight:400;">
-			    			<img src="/ec_weixiao/Public/images/consumers/shai.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
+			    			<img src="/ecs_weixiao/Public/images/consumers/shai.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
 			    			全民疯抢
 			    		</div>
 			    	</div>
 			   		<div class="ui-block-c" jump-url="http://localhost/pz/wx/index.php/merchant/merchant/collect" onclick="nav_jump(this)">
 			   			<div class="ui-bar ui-bar-a" style="font-weight:400;">
-			    			<img src="/ec_weixiao/Public/images/consumers/collect_.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
+			    			<img src="/ecs_weixiao/Public/images/consumers/collect_.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
 			   				收藏
 			   			</div>
 			   		</div>
 			   		<div class="ui-block-c" jump-url="http://wsq.qq.com/reflow/263536219" onclick="nav_jump(this)">
 			   			<div class="ui-bar ui-bar-a" style="font-weight:400;">
-			    			<img src="/ec_weixiao/Public/images/consumers/logo.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
+			    			<img src="/ecs_weixiao/Public/images/consumers/logo.png" alt="" style="margin-bottom:0.1em;width:24px;margin-top:0.5em;"><br />
 			   				晒单区
 			   			</div>
 			   		</div>
@@ -128,7 +128,7 @@ function nav_jump(obj){
 	border-color:#ff5616;
 }
 </style>
-	<link rel="stylesheet" href="/ec_weixiao/Public/css/merchant_goods_list.css?" />
+	<link rel="stylesheet" href="/ecs_weixiao/Public/css/merchant_goods_list.css?" />
 		<div class="good-list" style="margin-bottom:3em;">
 			<fieldset class="ui-grid-a">
 																		   	<div class="ui-block-a" id="goods-box-60">
