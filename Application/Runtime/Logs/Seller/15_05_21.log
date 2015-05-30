@@ -1,0 +1,261 @@
+[ 2015-05-21T23:40:59+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=seller&c=index&a=inde
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.1868s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0887s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0603s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0080s ]
+ERR: 非法操作:inde
+
+[ 2015-05-21T23:41:16+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=seller&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0106s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.255840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.256604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2015-05-21T23:41:29+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=addCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29 AND `goods_category_name` = '牛仔衣'  [ RunTime:0.0011s ]
+SQL: INSERT INTO `wx_goods_category` (`parent_id`,`goods_category_name`,`uid`,`goods_category_addtime`) VALUES ('0','牛仔衣','29','1432222889') [ RunTime:0.0392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2015-05-21T23:41:29+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=seller&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0139s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2015-05-21T23:41:34+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=localGoodsList&categoryId=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2015-05-21T23:41:44+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=localGoodsList&categoryId=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0129s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-05-21T23:44:00+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=localGoodsList&categoryId=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-05-21T23:44:15+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004282s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2015-05-21T23:44:21+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=editCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0073s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29 AND `goods_category_name` = '女装12'  [ RunTime:0.0040s ]
+SQL: UPDATE `wx_goods_category` SET `goods_category_name`='女装12' WHERE `goods_category_id` = 6 [ RunTime:0.0037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2015-05-21T23:44:21+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2015-05-21T23:44:26+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=deleteCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `goods_category_id` = 6  [ RunTime:0.0021s ]
+SQL: DELETE FROM `wx_goods_category` WHERE `goods_category_id` = 6 [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-05-21T23:44:26+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+

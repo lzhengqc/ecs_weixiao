@@ -18,6 +18,63 @@ class GoodsCategoryModel extends Model{
 		}
 		return $this->where($condition)->select();
 	}
+
+	/**
+	 * 获取分类信息
+	 * @param $uid 用户id
+	 * @param $goodsCategoryName 分类名 
+	 *
+	 */
+	public function getLocalCategory($uid,$goodsCategoryName){
+		$condition = array(
+			'uid'=>$uid,
+			'goods_category_name'=>$goodsCategoryName
+		);
+		return $this->where($condition)->select();
+	}
+
+	/**
+	 * 添加分类信息
+	 * @param $data 需要添加的数据
+	 *
+	 */
+	public function addGoodsCategory($data){
+		return $this->data($data)->add();
+	}
+	/**
+	 * 编辑分类信息
+	 * @param $categoryId 分类id
+	 * @param $data 编辑的数据
+	 *
+	 */
+	public function editGoodsCategory($categoryId,$data){
+		$condition = array(
+			'goods_category_id'=>$categoryId
+		);
+		return $this->where($condition)->save($data);
+	}
+	/**
+	 * 通过分类id获取分类信息
+	 * @param $goodsCategoryId 分类id
+	 *
+	 */
+	public function getCategoryById($goodsCategoryId){
+		$condition = array(
+			'goods_category_id'=>$goodsCategoryId
+		);
+		return $this->where($condition)->select();
+	}
+	/**
+	 * 删除分类信息
+	 * @param $goodsCategoryId 分类id
+	 *
+	 */
+	public function deleteGoodsCategory($goodsCategoryId){
+		$condition = array(
+			'goods_category_id'=>$goodsCategoryId
+		);
+		return $this->where($condition)->delete();
+	}
 }
 
 ?>

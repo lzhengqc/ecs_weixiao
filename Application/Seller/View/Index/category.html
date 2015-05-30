@@ -78,21 +78,28 @@ function nav_jump(obj){
 }
 .ui-page-theme-a .ui-btn{margin-bottom: 0;}
 .ui-btn-corner-all, .ui-btn.ui-corner-all, .ui-slider-track.ui-corner-all, .ui-flipswitch.ui-corner-all, .ui-li-count{border-radius: 0.325em 0.325em 0 0;}
+.category-div{position:relative;margin-bottom:1em;}
+.ui-mobile .category-fieldset{margin-bottom:2.7em;margin-top:1em;}
+.category-edit{text-align:center;margin-right:0.3125em;margin-left:0.3125em;background:#ffffff;border:1px solid #ccc;border-top:none;border-radius:0 0 0.325em 0.325em;padding:0.5em 0}
+.category-a{display:inline-block;width:45%;text-align:center;height:1em;line-height:1em;border-top:none;color:#cccccc;text-decoration:none;}
+.category-delete{display:inline-block;width:45%;text-align:center;height:1em;line-height:1em;color:#cccccc;text-decoration:none;}
 </style>
 	<link rel="stylesheet" href="__PUBLIC__/css/merchant_index.css" />
- 		<fieldset class="ui-grid-b" style="margin-bottom:2.7em;margin-top:1em;">
-			<div class="ui-block-b" style="position:relative;margin-bottom:1em;">
-	    			<input category-id="39" onclick="my_jump(this)" type="button" value="男装">
-	    				<div style="text-align:center;margin-right:0.3125em;margin-left:0.3125em;background:#ffffff;border:1px solid #ccc;border-top:none;border-radius:0 0 0.325em 0.325em;padding:0.5em 0">
-			    			<a style="display:inline-block;width:45%;text-align:center;height:1em;line-height:1em;border-top:none;color:#cccccc;text-decoration:none;" category-id="39" onclick="my_edit(this)" category-name="男装" href="#popupCloseLeft" class="ui-corner-all" data-rel="popup">
+ 		<fieldset class="ui-grid-b category-fieldset">
+ 			<foreach name="localCategoryList" item="vo" >
+			<div class="ui-block-b category-div">
+	    			<input category-id="{$vo.goods_category_id}" onclick="my_jump(this)" type="button" value="{$vo.goods_category_name}">
+	    				<div class="category-edit">
+			    			<a class="category-a" category-id="{$vo.goods_category_id}" onclick="my_edit(this)" category-name="{$vo.goods_category_name}" href="#popupCloseLeft" class="ui-corner-all" data-rel="popup">
 			    				编辑
 			    			</a>
-			    			<a style="display:inline-block;width:45%;text-align:center;height:1em;line-height:1em;color:#cccccc;text-decoration:none;" category-id="39" onclick="my_delete(this)">
+			    			<a class="category-delete" style="" category-id="{$vo.goods_category_id}" onclick="my_delete(this)">
 			    				删除
 			    			</a>
 			    			<div style="clear:both;"></div>
 		    			</div>
 	    	</div>
+	    	</foreach>
 	    </fieldset>
 		<div class="my-add-cat" style="position:fixed;bottom:0em;text-align:center;display:block;width:100%;margin-bottom:0.5em;">
 			<!-- <button class="ui-btn" data-rel="popup">添加分类</button> -->
@@ -129,14 +136,7 @@ function my_edit(obj){
 $("#popupCloseRight").on({
 	
     popupafteropen: function() {
-    	// var h = $( window ).height();
-    	// h = Math.ceil(h/5); 
-    	// var w = $( window ).width(); 
-    	// w = Math.ceil(h/4);
-     	// $( "#popupCloseLeft" ).css( "left",w);
-     	//$( "#popupCloseRight-popup" ).css( "left",'25%');
      	$( "#popupCloseRight-popup" ).css( "top",'20%');
-        //setTimeout(function(){$( "#popupCloseLeft-popup" ).css( "left",'25%');},0);
     }
      	
     
@@ -144,13 +144,7 @@ $("#popupCloseRight").on({
 $("#popupCloseLeft").on({
 	
     popupafteropen: function() {
-    	// var h = $( window ).height();
-    	// h = Math.ceil(h/5); 
-    	// var w = $( window ).width(); 
-    	// w = Math.ceil(h/4);
-     	// $( "#popupCloseLeft" ).css( "left",w);
      	$( "#popupCloseLeft-popup" ).css( "left",'25%');
-        //setTimeout(function(){$( "#popupCloseLeft-popup" ).css( "left",'25%');},0);
     }
      	
     
@@ -162,7 +156,7 @@ $(document).ready(function(){
 	
 	$('#do-add-category').click(function(){
 		var cateory_name = $('#cateory-name').val();
-		var url = "http://localhost/pz/wx/index.php/merchant/merchant/add_goods_category";
+		var url = "{:U('Seller/Index/addCategory')}";
 		
 		if(cateory_name == ''){
 			alert('请输入分类名');
@@ -175,23 +169,12 @@ $(document).ready(function(){
 			$.ajax({
 				type:'post',
 				url:url,
-				data:'goods_category_name='+cateory_name,
+				data:'goodsCategoryName='+cateory_name,
 				success:function(msg){
 			      	var msg = eval('('+msg+')');
-			        //$('#show-add-box-'+live_goods_id).show();
-			        //$('#my-goods-'+live_goods_id).hide();
-					console.log(msg);
-					//alert(msg.msg);
 					if(msg.status == 1){
 						$('#popupCloseRight-popup').hide();
-						var html = '<div class="ui-block-b">';
 						window.location.reload();
-						//html += '<div class="ui-btn ui-input-btn ui-corner-all ui-shadow">';
-						//html +=cateory_name;
-						//html +='<input type="button" value="fghfgdg" onclick="my_jump(this)" category-id="'+msg.category_id+'">';
-						//html +='</div>';
-						//html +='</div>';
-						//$('.ui-grid-b').append(html);
 					}else{
 						alert(msg.msg);
 					}
@@ -203,7 +186,7 @@ $(document).ready(function(){
 	$('#do-edit-category').click(function(){
 		var cateory_name = $('#edit-cateory-name').val();
 		var cateory_id = $('#edit-cateory-name').attr('category-id');
-		var url = "http://localhost/pz/wx/index.php/merchant/merchant/edit_goods_category";
+		var url = "{:U('Seller/Index/editCategory')}";
 		if(cateory_name == ''){
 			alert('请输入分类名');
 			return ;
@@ -211,10 +194,9 @@ $(document).ready(function(){
 			$.ajax({
 				type:'post',
 				url:url,
-				data:'category_name='+cateory_name+'&category_id='+cateory_id,
+				data:'categoryName='+cateory_name+'&categoryId='+cateory_id,
 				success:function(msg){
 			      	var msg = eval('('+msg+')');
-					console.log(msg);
 					if(msg.status == 1){
 						$('#popupCloseLeft-popup').hide();
 						window.location.reload();
@@ -229,7 +211,7 @@ $(document).ready(function(){
 });
 function my_jump(obj){
 	var category_id = $(obj).attr('category-id');
-	var url = "{:U('Seller/Index/local_goods_list','category_id=')}"+category_id;
+	var url = "{:U('Seller/Index/localGoodsList','categoryId=')}"+category_id;
 	window.location.href = url;
 }
 function my_delete(obj){
@@ -237,25 +219,15 @@ function my_delete(obj){
 		return false;
 	}else{
 		var category_id = $(obj).attr('category-id');
-		var url = "http://localhost/pz/wx/index.php/merchant/merchant/delete_goods_category";
+		var url = "{:U('Seller/Index/deleteCategory')}";
 		$.ajax({
 			type:'post',
 			url:url,
-			data:'cid='+category_id,
+			data:'categoryId='+category_id,
 			success:function(msg){
-				var msg = eval('('+msg+')');
-				console.log(msg);
-						
+				var msg = eval('('+msg+')');				
 				if(msg.status == 1){
-					//$('#popupCloseRight-popup').hide();
-					//var html = '<div class="ui-block-b">';
 					window.location.reload();
-							//html += '<div class="ui-btn ui-input-btn ui-corner-all ui-shadow">';
-							//html +=cateory_name;
-							//html +='<input type="button" value="fghfgdg" onclick="my_jump(this)" category-id="'+msg.category_id+'">';
-							//html +='</div>';
-							//html +='</div>';
-							//$('.ui-grid-b').append(html);
 				}else{
 					alert(msg.msg);
 				}
