@@ -4,6 +4,16 @@ return array(
 	'TOKEN'			=>'weixiao',
 	'APPID'			=>'wx19420fcef76fae92',
 	'APPSECRET'		=>'c32f75b2474728cac0ccbe790e31151a',
+	'WEIXIAO'		=>array(
+					    /* 数据库设置 */
+					    'DB_TYPE'               =>  'mysql',     // 数据库类型
+					    'DB_HOST'               =>  '127.0.0.1', // 服务器地址
+					    'DB_NAME'               =>  'ecs_weixiao',          // 数据库名
+					    'DB_USER'               =>  'root',      // 用户名
+					    'DB_PWD'                =>  '',          // 密码
+					    'DB_PORT'               =>  '3306',        // 端口
+					    'DB_PREFIX'             =>  'wx_'    // 数据库表前缀
+					),
 	'ECSHOP'		=>array(
 					    /* 数据库设置 */
 					    'DB_TYPE'               =>  'mysql',     // 数据库类型

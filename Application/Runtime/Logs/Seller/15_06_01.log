@@ -1,0 +1,209 @@
+[ 2015-06-01T23:01:37+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WechatModel
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0988s ]
+NOTIC: [8] Undefined variable: wechatModel D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao_github\ecs_weixiao\Application\Seller\Controller\IndexController.class.php 第 19 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0161s ]
+NOTIC: [8] Undefined variable: userModel D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao_github\ecs_weixiao\Application\Seller\Controller\IndexController.class.php 第 20 行.
+NOTIC: D方法实例化没找到模型类Common\Model\GoodsModel
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0259s ]
+NOTIC: D方法实例化没找到模型类Common\Model\GoodsCategoryModel
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: userModel D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao_github\ecs_weixiao\Application\Seller\Controller\IndexController.class.php 第 72 行.
+
+[ 2015-06-01T23:02:13+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WechatModel
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined variable: wechatModel D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao_github\ecs_weixiao\Application\Seller\Controller\IndexController.class.php 第 19 行.
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined variable: userModel D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao_github\ecs_weixiao\Application\Seller\Controller\IndexController.class.php 第 20 行.
+NOTIC: D方法实例化没找到模型类Common\Model\GoodsModel
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0150s ]
+NOTIC: D方法实例化没找到模型类Common\Model\GoodsCategoryModel
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0115s ]
+NOTIC: [8] Undefined variable: userModel D:\ApmServ\APMServ5.2.6\www\htdocs\ecs_weixiao_github\ecs_weixiao\Application\Seller\Controller\IndexController.class.php 第 72 行.
+
+[ 2015-06-01T23:02:32+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WechatModel
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0120s ]
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0126s ]
+NOTIC: D方法实例化没找到模型类Common\Model\GoodsModel
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0118s ]
+NOTIC: D方法实例化没找到模型类Common\Model\GoodsCategoryModel
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0132s ]
+ERR: Think\Model:getUser方法不存在！
+
+[ 2015-06-01T23:03:20+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WechatModel
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0144s ]
+NOTIC: D方法实例化没找到模型类Common\Model\UserModel
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0125s ]
+
+[ 2015-06-01T23:05:53+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WxWechatModel
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecs_weixiao.wx_wx_wechat' doesn't exist
+
+[ 2015-06-01T23:07:48+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WxWechatModel
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:09:28+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WxWechatModel
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:10:03+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WxWechatModel
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:10:09+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+
+[ 2015-06-01T23:11:38+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WxWechatModel
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:11:50+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: D方法实例化没找到模型类Common\Model\WxWechatModel
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:22:01+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:22:16+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-06-01T23:22:27+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:23:27+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2015-06-01T23:24:12+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0253s ]
+
+[ 2015-06-01T23:24:47+08:00 ] 127.0.0.1 /ecs_weixiao_github/ecs_weixiao/index.php?m=Seller&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `wx_user` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `wx_goods_category` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `wx_user` WHERE `openid` = 'oaQ8auGYY-uQTtIUAFFxqnQJpjWQ' LIMIT 1   [ RunTime:0.0056s ]
+SQL: SELECT * FROM `wx_goods_category` WHERE `uid` = 29  [ RunTime:0.0557s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002302s ]
+

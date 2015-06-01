@@ -5,8 +5,10 @@ class IndexController extends Controller {
     /* 初始化用户微信信息 */
     private $merchantWechat;
     private $merchantUser;
-    private $goodsCategoryModel;
-    private $goodsModel;
+    private $wxGoodsCategoryModel;
+    private $wxGoodsModel;
+    private $wxWechatModel;
+    private $wxUserModel;
     /**
      * 构造函数
      * 
@@ -14,10 +16,10 @@ class IndexController extends Controller {
      */
     public function __construct(){
         parent::__construct();
-        $wechatModel = D('Weixin/Wechat');
-        $userModel = D('Seller/User');
-        $this->goodsModel = D('Seller/Goods');   
-        $this->goodsCategoryModel = D('Seller/GoodsCategory');
+        $this->wxWechatModel = D('WxWechat');
+        $this->wxUserModel = D('WxUser');
+        $this->wxGoodsModel = D('WxGoods');   
+        $this->wxGoodsCategoryModel = D('WxGoodsCategory');
         /* 微信入口进来，从微信获取用户信息 */
         if(isset($_GET['code'])){
             $AccessToken = getAccessToken();
@@ -26,7 +28,7 @@ class IndexController extends Controller {
             $msg = file_get_contents('https://api.weixin.qq.com/sns/oauth2/access_token?appid='.$appid.'&secret='.$secret.'&code='.$code.'&grant_type=authorization_code');
             $merchantOpenid = json_decode($msg,true);
             /* 通过openid从数据库获取用户的微信信息 */
-            $merchantWechat = $wechatModel->getWechat($merchantOpenid['openid']);
+            $merchantWechat = $this->wxWechatModel->getWechat($merchantOpenid['openid']);
             if(!$merchantWechat){
                 /* 如果本地数据库中不存在，则从微信服务器获取 */
                 $requestUrl = 'https://api.weixin.qq.com/sns/userinfo?access_token='.$accessToken.'&openid='.$merchantOpenid.'&lang=zh_CN';
@@ -67,11 +69,8 @@ class IndexController extends Controller {
         /* 获取用户的微信个人信息 */
         $this->merchantWechat = session('merchantWechat');
         /* 获取用户微销平台个人信息 */
-        $this->merchantUser = $userModel->getUser(array('openid'=>$this->merchantWechat['openid']));
-        
+        $this->merchantUser = $this->wxUserModel->getUser(array('openid'=>$this->merchantWechat['openid']));     
     }
-
-
 
 	/**
 	 * 本地商品分类
@@ -79,7 +78,7 @@ class IndexController extends Controller {
 	 */
     public function index(){
         /* 获取当前微信用户的自定义商品分类 */
-        $localCategoryList = $this->goodsCategoryModel->getCategory($this->merchantUser['uid'],'');
+        $localCategoryList = $this->wxGoodsCategoryModel->getCategory($this->merchantUser['uid'],'');
         $data = array(
             'localCategoryList'=>$localCategoryList
         );
